@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://francescorn.github.io/sitemap.xml

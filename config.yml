@@ -1,0 +1,61 @@
+baseURL: "https://francescorn.github.io"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+publishDir:                 "docs"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Frances Cornwall
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: true
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Frances Cornwall
+    subtitle: "A Vassar graduate interested in pursing a career using Biology, Statistics, and Python."
+    imageUrl: "/me.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: Frances Cornwall
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Frances Cornwall"
+    Content: A Vassar graduate interested in pursing a career using Biology, Statistics, and Python.
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/francescornwal1"
+    - name: github
+      url: "https://github.com/francescorn"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/frances-cornwall-7952b8182/"
+    - name: email
+      url: "mailto:frances_c@cox.net"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
