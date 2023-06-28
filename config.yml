@@ -52,6 +52,8 @@ params:
       url: "https://github.com/francescorn"
     - name: linkedin
       url: "https://www.linkedin.com/in/frances-cornwall-7952b8182/"
+    - name: medium
+      url: "https://medium.com/@francescornwall"
     - name: email
       url: "mailto:frances_c@cox.net"
 
