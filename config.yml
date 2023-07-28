@@ -34,7 +34,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Frances Cornwall
-    subtitle: "A Vassar graduate interested in pursing a career in software engineering."
+    subtitle: "A Vassar graduate interested in pursing a career as a front end software engineering"
     imageUrl: "/me.jpg"
     imageWidth: 180
     imageHeight: 180
@@ -43,7 +43,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Frances Cornwall"
-    Content: A Vassar graduate interested in pursing a career in software engineering.
+    Content: "A Vassar graduate interested in pursing a career as a front end software engineering"
 
   socialIcons:
     - name: twitter
